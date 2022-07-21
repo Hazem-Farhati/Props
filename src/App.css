@@ -69,3 +69,18 @@ body{
   background-color: blue;
   color: white;
 }
+
+.plein-ecran{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left: 0;
+  z-index: 99999999999999999;
+}
+.plein-ecran p{
+  font-size: 150px;
+}
